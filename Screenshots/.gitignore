@@ -1,0 +1,18 @@
+# Fichiers compilés
+*.o
+*.out
+a.out
+cipher
+decipher
+findkey
+
+# Archives
+*.zip
+*.tar
+*.gz
+
+# Fichiers Windows parasites
+*.Zone.Identifier
+
+# Fichiers temporaires
+*.tmp

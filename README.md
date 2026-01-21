@@ -1,2 +1,15 @@
-# ransomware-recovery-toolbox
-Boîte à outils développée en Bash et en langage C pour la gestion d’un incident de cybersécurité simulé de type rançongiciel. Le projet permet de détecter les fichiers impactés par l’attaque et de restaurer les données chiffrées sans paiement de rançon.
+### 📂 Importation de l’archive
+![Détection](Screenshots/wsl_import-archive.png)
+photo montrant l importation des deux archives depuis le dossie courant vers le dossier  caché  .sh-toolbox
+
+### 🔓 Restauration de l’archive
+![Détection](Screenshots/wsl_restore-archive.png)
+Les fichiers chiffrés sont traités par les scripts Bash et les programmes C pour lancer la restauration.
+
+### 🔑 Récupération de la clé
+![Détection](Screenshots/wsl_cle_trouve.png)
+La clé de chiffrement est automatiquement retrouvée grâce à l’analyse du chiffrement Vigenère en Base64.
+
+### 📄 Fichier déchiffré
+![Détection](Screenshots/wsl_fichier_dechiffre.png)
+Le fichier est correctement restauré et lisible après le processus de déchiffrement.

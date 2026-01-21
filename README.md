@@ -1,6 +1,6 @@
 ### 📂 Importation de l’archive
 ![Détection](Screenshots/wsl_import-archive.png)
-photo montrant l importation des deux archives depuis le dossie courant vers le dossier  caché  .sh-toolbox
+photo montrant l importation des deux archives depuis le dossier courant vers le dossier  caché  .sh-toolbox
 
 ### 🔓 Restauration de l’archive
 ![Détection](Screenshots/wsl_restore-archive.png)

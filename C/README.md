@@ -1,18 +1,18 @@
-# Documentation : Système de Chiffrement Vigenère Base64 (Compilation Séparée)
+# Base64 Vigenère Encryption System (Separate Compilation)
 
-## Organisation du projet
+## Project Organization
 
-### Structure des fichiers
+### File Structure
 ```
 .
-├── Makefile                  # Orchestration de la compilation
-├── cipher.c                  # Programme de chiffrement
-├── decipher.c                # Programme de déchiffrement
-├── findkey.c                 # Programme d'extraction de clé
-├── base64_lib.c / .h         # Bibliothèque conversion Base64
-├── vignere_lib.c / .h        # Bibliothèque chiffrement Vigenère
-├── key_lib.c / .h            # Bibliothèque détection de période
-└── exemple.txt               # Fichier de test
+├── Makefile                  # Compilation orchestration
+├── cipher.c                  # Encryption program
+├── decipher.c                # Decryption program
+├── findkey.c                 # key extraction program
+├── base64_lib.c / .h         # Base64 conversion library
+├── vignere_lib.c / .h        # Vigenère encryption library  
+├── key_lib.c / .h            # Period detection library 
+└── exemple.txt               # Test file
 ```
 
 ### Architecture 

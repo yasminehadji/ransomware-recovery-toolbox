@@ -1,16 +1,16 @@
-### 📂 Importation de l’archive
-![Détection](Screenshots/wsl_import-archive.png)
-photo montrant l importation des deux archives depuis le dossier courant vers le dossier  caché  .sh-toolbox
+### 📂 Archive Import
+![Detection](Screenshots/wsl_import-archive.png)
+Screenshot showing the import of the two archives from the current directory into the hidden folder `.sh-toolbox`.
 
-### 🔓 Restauration de l’archive
-![Détection](Screenshots/wsl_restore-archive.png)
-Les fichiers chiffrés sont traités par les scripts Bash et les programmes C pour lancer la restauration.
-ps:( 14 est le nombre de caractères de la clé en BASE64)
+### 🔓 Archive Restoration
+![Detection](Screenshots/wsl_restore-archive.png)
+The encrypted files are processed by the Bash scripts and C programs to initiate the restoration.
+*(Note: 14 is the number of characters in the BASE64 key)*
 
-### 🔑 Récupération de la clé
-![Détection](Screenshots/wsl_cle_trouve.png)
-La clé de chiffrement est automatiquement retrouvée grâce à l’analyse du chiffrement Vigenère en Base64.
+### 🔑 Key Recovery
+![Detection](Screenshots/wsl_cle_trouve.png)
+The encryption key is automatically recovered through the analysis of the Base64 Vigenère cipher.
 
-### 📄 Fichier déchiffré
-![Détection](Screenshots/wsl_fichier_dechiffre.png)
-Le fichier est correctement restauré et lisible après le processus de déchiffrement.
+### 📄 Decrypted File
+![Detection](Screenshots/wsl_fichier_dechiffre.png)
+The file is successfully restored and readable following the decryption process.
